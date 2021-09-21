@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libuaaerolib.a CMakeFiles/uaaerolib.dir/src/UnsteadyAero.f90.o CMakeFiles/uaaerolib.dir/src/UnsteadyAero_Types.f90.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libuaaerolib.a

@@ -1,0 +1,10 @@
+# The fortran modules provided by this target.
+provides
+ nwtc_library_test_tools.mod
+ test_nwtc_io_checkargs.mod
+ test_nwtc_io_fileinfo.mod
+ test_nwtc_randomnumber.mod
+ wrapnwtc_library_test_tools.mod
+ wraptest_nwtc_io_checkargs.mod
+ wraptest_nwtc_io_fileinfo.mod
+ wraptest_nwtc_randomnumber.mod

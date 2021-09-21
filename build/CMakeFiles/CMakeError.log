@@ -1,0 +1,19 @@
+Determining if the Fortran sgemm exists failed with the following output:
+Change Dir: /Users/abarker/Desktop/Fast/openfast/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc170/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fc170.dir/build.make CMakeFiles/cmTC_fc170.dir/build
+Building Fortran object CMakeFiles/cmTC_fc170.dir/testFortranCompiler.f.o
+/usr/local/bin/gfortran   -DUNIT_TEST -fpic  -ffree-line-length-none -cpp -fstack-reuse=none -fdefault-real-8  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -c /Users/abarker/Desktop/Fast/openfast/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_fc170.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_fc170
+/Users/abarker/miniconda3/lib/python3.8/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc170.dir/link.txt --verbose=1
+/usr/local/bin/gfortran  -DUNIT_TEST -fpic  -ffree-line-length-none -cpp -fstack-reuse=none -fdefault-real-8  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk CMakeFiles/cmTC_fc170.dir/testFortranCompiler.f.o -o cmTC_fc170 
+Undefined symbols for architecture x86_64:
+  "_sgemm_", referenced from:
+      _MAIN__ in testFortranCompiler.f.o
+ld: symbol(s) not found for architecture x86_64
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_fc170] Error 1
+make: *** [cmTC_fc170/fast] Error 2
+
+
+

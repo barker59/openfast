@@ -1,0 +1,16 @@
+# The fortran modules provided by this target.
+provides
+ ifw_test_tools.mod
+ test_bladed_wind.mod
+ test_hawc_wind.mod
+ test_outputs.mod
+ test_steady_wind.mod
+ test_turbsim_wind.mod
+ test_uniform_wind.mod
+ wrapifw_test_tools.mod
+ wraptest_bladed_wind.mod
+ wraptest_hawc_wind.mod
+ wraptest_outputs.mod
+ wraptest_steady_wind.mod
+ wraptest_turbsim_wind.mod
+ wraptest_uniform_wind.mod

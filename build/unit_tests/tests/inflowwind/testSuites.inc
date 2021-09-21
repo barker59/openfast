@@ -1,0 +1,7 @@
+ADD_TEST_SUITE(ifw_test_tools_suite)
+ADD_TEST_SUITE(test_steady_wind_suite)
+ADD_TEST_SUITE(test_turbsim_wind_suite)
+ADD_TEST_SUITE(test_bladed_wind_suite)
+ADD_TEST_SUITE(test_hawc_wind_suite)
+ADD_TEST_SUITE(test_outputs_suite)
+ADD_TEST_SUITE(test_uniform_wind_suite)

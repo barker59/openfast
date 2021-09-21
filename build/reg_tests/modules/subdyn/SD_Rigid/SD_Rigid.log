@@ -1,0 +1,31 @@
+
+ **************************************************************************************************
+ SubDyn Driver
+
+ Copyright (C) 2021 National Renewable Energy Laboratory
+ Copyright (C) 2021 Envision Energy USA LTD
+
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ See the "LICENSE" file distributed with this software for details.
+ **************************************************************************************************
+
+  Running SubDyn Driver a part of OpenFAST - v2.5.0-648-g2221ba53
+  linked with NWTC Subroutine Library
+
+ Opening SubDyn Driver input file:
+ /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn/SD_Rigid/SD_Rigid.dvr
+ Running SubDyn.
+    Fixed bottom case detected
+ Node           2 is involved in a Rigid assembly
+ Node           3 is involved in a Rigid assembly
+    Performing Craig-Bampton reduction 18 DOFs -> 2 modes + 6 DOFs
+    Using static improvement method for gravity and ext. loads
+    SubDyn recommended dt: 0.00504 - Current dt: 0.00100 - Max frequency: 9.92349
+    Calculating Full System Modes for summary file
+
+                                                                                                   Time: 1 of 2 seconds.  Estimated final completion at 13:17:20.                                                                                                                                     
+  Total Real Time:       8.50000E-02 seconds
+  Total CPU Time:        8.44710E-02 seconds
+  Simulation CPU Time:   8.02030E-02 seconds
+  Simulated Time:        1.999 seconds
+  Time Ratio (Sim/CPU):  24.924

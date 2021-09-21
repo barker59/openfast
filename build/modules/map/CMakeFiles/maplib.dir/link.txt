@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmaplib.a CMakeFiles/maplib.dir/src/map.f90.o CMakeFiles/maplib.dir/src/MAP_Types.f90.o CMakeFiles/maplib.dir/src/MAP_Fortran_Types.f90.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libmaplib.a

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libicedynlib.a CMakeFiles/icedynlib.dir/src/IceDyn.f90.o CMakeFiles/icedynlib.dir/src/IceDyn_Types.f90.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libicedynlib.a

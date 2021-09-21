@@ -1,0 +1,30 @@
+
+ **************************************************************************************************
+ SubDyn Driver
+
+ Copyright (C) 2021 National Renewable Energy Laboratory
+ Copyright (C) 2021 Envision Energy USA LTD
+
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ See the "LICENSE" file distributed with this software for details.
+ **************************************************************************************************
+
+  Running SubDyn Driver a part of OpenFAST - v2.5.0-648-g2221ba53
+  linked with NWTC Subroutine Library
+
+ Opening SubDyn Driver input file:
+ /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn/SD_Cable_5Joints/SD_Cable_5Joi
+ nts.dvr
+ Running SubDyn.
+    Fixed bottom case detected
+    Guyan extra moment will be included in loads (fixed-bottom case detected)
+    Performing Craig-Bampton reduction 30 DOFs -> 0 modes + 6 DOFs
+    Using static improvement method for gravity and ext. loads
+    Calculating Full System Modes for summary file
+
+                                                                                                   Time: 1 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                     Time: 2 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                     Time: 3 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                     Time: 4 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                     Time: 5 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                     Time: 6 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                     Time: 7 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                     Time: 8 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                     Time: 9 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                     Time: 10 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                    Time: 11 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                    Time: 12 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                    Time: 13 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                    Time: 14 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                    Time: 15 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                    Time: 16 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                    Time: 17 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                    Time: 18 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                    Time: 19 of 20 seconds.  Estimated final completion at 13:17:19.                                                                                                                                   
+  Total Real Time:       0.137 seconds
+  Total CPU Time:        0.13549 seconds
+  Simulation CPU Time:   0.13122 seconds
+  Simulated Time:        19.99 seconds
+  Time Ratio (Sim/CPU):  152.34

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libscfastlib.a CMakeFiles/scfastlib.dir/src/SuperController.f90.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libscfastlib.a

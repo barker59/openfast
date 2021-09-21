@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmoordynlib.a CMakeFiles/moordynlib.dir/src/MoorDyn.f90.o CMakeFiles/moordynlib.dir/src/MoorDyn_IO.f90.o CMakeFiles/moordynlib.dir/src/MoorDyn_Types.f90.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libmoordynlib.a

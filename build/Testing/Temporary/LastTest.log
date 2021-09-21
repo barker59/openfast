@@ -1,0 +1,1193 @@
+Start testing: Apr 14 12:19 MDT
+----------------------------------------------------------
+1/57 Testing: AWT_YFix_WSt
+1/57 Test: AWT_YFix_WSt
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "AWT_YFix_WSt" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"AWT_YFix_WSt" start time: Apr 14 12:19 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AWT_YFix_WSt/AWT_YFix_WSt.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AWT_YFix_WSt/AWT_YFix_WSt.log
+COMPLETE with code 0
+<end of output>
+Test time =  12.52 sec
+----------------------------------------------------------
+Test Passed.
+"AWT_YFix_WSt" end time: Apr 14 12:19 MDT
+"AWT_YFix_WSt" time elapsed: 00:00:12
+----------------------------------------------------------
+
+2/57 Testing: AWT_WSt_StartUp_HighSpShutDown
+2/57 Test: AWT_WSt_StartUp_HighSpShutDown
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "AWT_WSt_StartUp_HighSpShutDown" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"AWT_WSt_StartUp_HighSpShutDown" start time: Apr 14 12:19 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AWT_WSt_StartUp_HighSpShutDown/AWT_WSt_StartUp_HighSpShutDown.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AWT_WSt_StartUp_HighSpShutDown/AWT_WSt_StartUp_HighSpShutDown.log
+COMPLETE with code 0
+<end of output>
+Test time =  13.37 sec
+----------------------------------------------------------
+Test Passed.
+"AWT_WSt_StartUp_HighSpShutDown" end time: Apr 14 12:20 MDT
+"AWT_WSt_StartUp_HighSpShutDown" time elapsed: 00:00:13
+----------------------------------------------------------
+
+3/57 Testing: AWT_YFree_WSt
+3/57 Test: AWT_YFree_WSt
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "AWT_YFree_WSt" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"AWT_YFree_WSt" start time: Apr 14 12:20 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AWT_YFree_WSt/AWT_YFree_WSt.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AWT_YFree_WSt/AWT_YFree_WSt.log
+COMPLETE with code 0
+<end of output>
+Test time =  16.44 sec
+----------------------------------------------------------
+Test Passed.
+"AWT_YFree_WSt" end time: Apr 14 12:20 MDT
+"AWT_YFree_WSt" time elapsed: 00:00:16
+----------------------------------------------------------
+
+4/57 Testing: AWT_YFree_WTurb
+4/57 Test: AWT_YFree_WTurb
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "AWT_YFree_WTurb" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"AWT_YFree_WTurb" start time: Apr 14 12:20 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AWT_YFree_WTurb/AWT_YFree_WTurb.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AWT_YFree_WTurb/AWT_YFree_WTurb.log
+COMPLETE with code 0
+<end of output>
+Test time =  48.72 sec
+----------------------------------------------------------
+Test Passed.
+"AWT_YFree_WTurb" end time: Apr 14 12:21 MDT
+"AWT_YFree_WTurb" time elapsed: 00:00:48
+----------------------------------------------------------
+
+5/57 Testing: AWT_WSt_StartUpShutDown
+5/57 Test: AWT_WSt_StartUpShutDown
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "AWT_WSt_StartUpShutDown" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"AWT_WSt_StartUpShutDown" start time: Apr 14 12:21 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AWT_WSt_StartUpShutDown/AWT_WSt_StartUpShutDown.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AWT_WSt_StartUpShutDown/AWT_WSt_StartUpShutDown.log
+COMPLETE with code 0
+<end of output>
+Test time =  20.81 sec
+----------------------------------------------------------
+Test Passed.
+"AWT_WSt_StartUpShutDown" end time: Apr 14 12:21 MDT
+"AWT_WSt_StartUpShutDown" time elapsed: 00:00:20
+----------------------------------------------------------
+
+6/57 Testing: AOC_WSt
+6/57 Test: AOC_WSt
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "AOC_WSt" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"AOC_WSt" start time: Apr 14 12:21 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AOC_WSt/AOC_WSt.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AOC_WSt/AOC_WSt.log
+COMPLETE with code 0
+<end of output>
+Test time =  11.14 sec
+----------------------------------------------------------
+Test Passed.
+"AOC_WSt" end time: Apr 14 12:21 MDT
+"AOC_WSt" time elapsed: 00:00:11
+----------------------------------------------------------
+
+7/57 Testing: AOC_YFree_WTurb
+7/57 Test: AOC_YFree_WTurb
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "AOC_YFree_WTurb" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"AOC_YFree_WTurb" start time: Apr 14 12:21 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AOC_YFree_WTurb/AOC_YFree_WTurb.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AOC_YFree_WTurb/AOC_YFree_WTurb.log
+COMPLETE with code 0
+<end of output>
+Test time =  63.62 sec
+----------------------------------------------------------
+Test Passed.
+"AOC_YFree_WTurb" end time: Apr 14 12:22 MDT
+"AOC_YFree_WTurb" time elapsed: 00:01:03
+----------------------------------------------------------
+
+8/57 Testing: AOC_YFix_WSt
+8/57 Test: AOC_YFix_WSt
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "AOC_YFix_WSt" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"AOC_YFix_WSt" start time: Apr 14 12:22 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AOC_YFix_WSt/AOC_YFix_WSt.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/AOC_YFix_WSt/AOC_YFix_WSt.log
+COMPLETE with code 0
+<end of output>
+Test time =  17.84 sec
+----------------------------------------------------------
+Test Passed.
+"AOC_YFix_WSt" end time: Apr 14 12:23 MDT
+"AOC_YFix_WSt" time elapsed: 00:00:17
+----------------------------------------------------------
+
+9/57 Testing: UAE_Dnwind_YRamp_WSt
+9/57 Test: UAE_Dnwind_YRamp_WSt
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "UAE_Dnwind_YRamp_WSt" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"UAE_Dnwind_YRamp_WSt" start time: Apr 14 12:23 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/UAE_Dnwind_YRamp_WSt/UAE_Dnwind_YRamp_WSt.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/UAE_Dnwind_YRamp_WSt/UAE_Dnwind_YRamp_WSt.log
+COMPLETE with code 0
+<end of output>
+Test time =  40.05 sec
+----------------------------------------------------------
+Test Passed.
+"UAE_Dnwind_YRamp_WSt" end time: Apr 14 12:23 MDT
+"UAE_Dnwind_YRamp_WSt" time elapsed: 00:00:40
+----------------------------------------------------------
+
+10/57 Testing: UAE_Upwind_Rigid_WRamp_PwrCurve
+10/57 Test: UAE_Upwind_Rigid_WRamp_PwrCurve
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "UAE_Upwind_Rigid_WRamp_PwrCurve" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"UAE_Upwind_Rigid_WRamp_PwrCurve" start time: Apr 14 12:23 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/UAE_Upwind_Rigid_WRamp_PwrCurve/UAE_Upwind_Rigid_WRamp_PwrCurve.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/UAE_Upwind_Rigid_WRamp_PwrCurve/UAE_Upwind_Rigid_WRamp_PwrCurve.log
+COMPLETE with code 0
+<end of output>
+Test time =  31.69 sec
+----------------------------------------------------------
+Test Passed.
+"UAE_Upwind_Rigid_WRamp_PwrCurve" end time: Apr 14 12:24 MDT
+"UAE_Upwind_Rigid_WRamp_PwrCurve" time elapsed: 00:00:31
+----------------------------------------------------------
+
+11/57 Testing: WP_VSP_WTurb_PitchFail
+11/57 Test: WP_VSP_WTurb_PitchFail
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "WP_VSP_WTurb_PitchFail" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"WP_VSP_WTurb_PitchFail" start time: Apr 14 12:24 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/WP_VSP_WTurb_PitchFail/WP_VSP_WTurb_PitchFail.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/WP_VSP_WTurb_PitchFail/WP_VSP_WTurb_PitchFail.log
+COMPLETE with code 0
+<end of output>
+Test time =  12.02 sec
+----------------------------------------------------------
+Test Passed.
+"WP_VSP_WTurb_PitchFail" end time: Apr 14 12:24 MDT
+"WP_VSP_WTurb_PitchFail" time elapsed: 00:00:12
+----------------------------------------------------------
+
+12/57 Testing: WP_VSP_ECD
+12/57 Test: WP_VSP_ECD
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "WP_VSP_ECD" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"WP_VSP_ECD" start time: Apr 14 12:24 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/WP_VSP_ECD/WP_VSP_ECD.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/WP_VSP_ECD/WP_VSP_ECD.log
+COMPLETE with code 0
+<end of output>
+Test time =  13.13 sec
+----------------------------------------------------------
+Test Passed.
+"WP_VSP_ECD" end time: Apr 14 12:24 MDT
+"WP_VSP_ECD" time elapsed: 00:00:13
+----------------------------------------------------------
+
+13/57 Testing: WP_VSP_WTurb
+13/57 Test: WP_VSP_WTurb
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "WP_VSP_WTurb" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"WP_VSP_WTurb" start time: Apr 14 12:24 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/WP_VSP_WTurb/WP_VSP_WTurb.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/WP_VSP_WTurb/WP_VSP_WTurb.log
+COMPLETE with code 0
+<end of output>
+Test time =  37.80 sec
+----------------------------------------------------------
+Test Passed.
+"WP_VSP_WTurb" end time: Apr 14 12:25 MDT
+"WP_VSP_WTurb" time elapsed: 00:00:37
+----------------------------------------------------------
+
+14/57 Testing: SWRT_YFree_VS_EDG01
+14/57 Test: SWRT_YFree_VS_EDG01
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "SWRT_YFree_VS_EDG01" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"SWRT_YFree_VS_EDG01" start time: Apr 14 12:25 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/SWRT_YFree_VS_EDG01/SWRT_YFree_VS_EDG01.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/SWRT_YFree_VS_EDG01/SWRT_YFree_VS_EDG01.log
+COMPLETE with code 0
+<end of output>
+Test time = 105.77 sec
+----------------------------------------------------------
+Test Passed.
+"SWRT_YFree_VS_EDG01" end time: Apr 14 12:27 MDT
+"SWRT_YFree_VS_EDG01" time elapsed: 00:01:45
+----------------------------------------------------------
+
+15/57 Testing: SWRT_YFree_VS_EDC01
+15/57 Test: SWRT_YFree_VS_EDC01
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "SWRT_YFree_VS_EDC01" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"SWRT_YFree_VS_EDC01" start time: Apr 14 12:27 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/SWRT_YFree_VS_EDC01/SWRT_YFree_VS_EDC01.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/SWRT_YFree_VS_EDC01/SWRT_YFree_VS_EDC01.log
+COMPLETE with code 0
+<end of output>
+Test time =  54.75 sec
+----------------------------------------------------------
+Test Passed.
+"SWRT_YFree_VS_EDC01" end time: Apr 14 12:28 MDT
+"SWRT_YFree_VS_EDC01" time elapsed: 00:00:54
+----------------------------------------------------------
+
+16/57 Testing: SWRT_YFree_VS_WTurb
+16/57 Test: SWRT_YFree_VS_WTurb
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "SWRT_YFree_VS_WTurb" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"SWRT_YFree_VS_WTurb" start time: Apr 14 12:28 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/SWRT_YFree_VS_WTurb/SWRT_YFree_VS_WTurb.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/SWRT_YFree_VS_WTurb/SWRT_YFree_VS_WTurb.log
+COMPLETE with code 0
+<end of output>
+Test time = 194.44 sec
+----------------------------------------------------------
+Test Passed.
+"SWRT_YFree_VS_WTurb" end time: Apr 14 12:31 MDT
+"SWRT_YFree_VS_WTurb" time elapsed: 00:03:14
+----------------------------------------------------------
+
+17/57 Testing: 5MW_Land_DLL_WTurb
+17/57 Test: 5MW_Land_DLL_WTurb
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "5MW_Land_DLL_WTurb" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_Land_DLL_WTurb" start time: Apr 14 12:31 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_Land_DLL_WTurb/5MW_Land_DLL_WTurb.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_Land_DLL_WTurb/5MW_Land_DLL_WTurb.log
+COMPLETE with code 0
+<end of output>
+Test time =  67.90 sec
+----------------------------------------------------------
+Test Passed.
+"5MW_Land_DLL_WTurb" end time: Apr 14 12:32 MDT
+"5MW_Land_DLL_WTurb" time elapsed: 00:01:07
+----------------------------------------------------------
+
+18/57 Testing: 5MW_OC3Mnpl_DLL_WTurb_WavesIrr
+18/57 Test: 5MW_OC3Mnpl_DLL_WTurb_WavesIrr
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "5MW_OC3Mnpl_DLL_WTurb_WavesIrr" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_OC3Mnpl_DLL_WTurb_WavesIrr" start time: Apr 14 12:32 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC3Mnpl_DLL_WTurb_WavesIrr/5MW_OC3Mnpl_DLL_WTurb_WavesIrr.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC3Mnpl_DLL_WTurb_WavesIrr/5MW_OC3Mnpl_DLL_WTurb_WavesIrr.log
+COMPLETE with code 0
+<end of output>
+Test time = 201.88 sec
+----------------------------------------------------------
+Test Passed.
+"5MW_OC3Mnpl_DLL_WTurb_WavesIrr" end time: Apr 14 12:35 MDT
+"5MW_OC3Mnpl_DLL_WTurb_WavesIrr" time elapsed: 00:03:21
+----------------------------------------------------------
+
+19/57 Testing: 5MW_OC3Trpd_DLL_WSt_WavesReg
+19/57 Test: 5MW_OC3Trpd_DLL_WSt_WavesReg
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "5MW_OC3Trpd_DLL_WSt_WavesReg" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_OC3Trpd_DLL_WSt_WavesReg" start time: Apr 14 12:35 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC3Trpd_DLL_WSt_WavesReg/5MW_OC3Trpd_DLL_WSt_WavesReg.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC3Trpd_DLL_WSt_WavesReg/5MW_OC3Trpd_DLL_WSt_WavesReg.log
+COMPLETE with code 0
+<end of output>
+Test time = 592.16 sec
+----------------------------------------------------------
+Test Failed.
+"5MW_OC3Trpd_DLL_WSt_WavesReg" end time: Apr 14 12:45 MDT
+"5MW_OC3Trpd_DLL_WSt_WavesReg" time elapsed: 00:09:52
+----------------------------------------------------------
+
+20/57 Testing: 5MW_OC4Jckt_DLL_WTurb_WavesIrr_MGrowth
+20/57 Test: 5MW_OC4Jckt_DLL_WTurb_WavesIrr_MGrowth
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "5MW_OC4Jckt_DLL_WTurb_WavesIrr_MGrowth" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_OC4Jckt_DLL_WTurb_WavesIrr_MGrowth" start time: Apr 14 12:45 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC4Jckt_DLL_WTurb_WavesIrr_MGrowth/5MW_OC4Jckt_DLL_WTurb_WavesIrr_MGrowth.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC4Jckt_DLL_WTurb_WavesIrr_MGrowth/5MW_OC4Jckt_DLL_WTurb_WavesIrr_MGrowth.log
+COMPLETE with code 0
+<end of output>
+Test time = 935.70 sec
+----------------------------------------------------------
+Test Failed.
+"5MW_OC4Jckt_DLL_WTurb_WavesIrr_MGrowth" end time: Apr 14 13:01 MDT
+"5MW_OC4Jckt_DLL_WTurb_WavesIrr_MGrowth" time elapsed: 00:15:35
+----------------------------------------------------------
+
+21/57 Testing: 5MW_ITIBarge_DLL_WTurb_WavesIrr
+21/57 Test: 5MW_ITIBarge_DLL_WTurb_WavesIrr
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "5MW_ITIBarge_DLL_WTurb_WavesIrr" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_ITIBarge_DLL_WTurb_WavesIrr" start time: Apr 14 13:01 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_ITIBarge_DLL_WTurb_WavesIrr/5MW_ITIBarge_DLL_WTurb_WavesIrr.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_ITIBarge_DLL_WTurb_WavesIrr/5MW_ITIBarge_DLL_WTurb_WavesIrr.log
+COMPLETE with code 0
+<end of output>
+Test time =  23.24 sec
+----------------------------------------------------------
+Test Passed.
+"5MW_ITIBarge_DLL_WTurb_WavesIrr" end time: Apr 14 13:01 MDT
+"5MW_ITIBarge_DLL_WTurb_WavesIrr" time elapsed: 00:00:23
+----------------------------------------------------------
+
+22/57 Testing: 5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti
+22/57 Test: 5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti" start time: Apr 14 13:01 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti/5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti/5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti.log
+COMPLETE with code 0
+<end of output>
+Test time =  48.89 sec
+----------------------------------------------------------
+Test Passed.
+"5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti" end time: Apr 14 13:02 MDT
+"5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti" time elapsed: 00:00:48
+----------------------------------------------------------
+
+23/57 Testing: 5MW_OC3Spar_DLL_WTurb_WavesIrr
+23/57 Test: 5MW_OC3Spar_DLL_WTurb_WavesIrr
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "5MW_OC3Spar_DLL_WTurb_WavesIrr" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_OC3Spar_DLL_WTurb_WavesIrr" start time: Apr 14 13:02 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC3Spar_DLL_WTurb_WavesIrr/5MW_OC3Spar_DLL_WTurb_WavesIrr.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC3Spar_DLL_WTurb_WavesIrr/5MW_OC3Spar_DLL_WTurb_WavesIrr.log
+COMPLETE with code 0
+<end of output>
+Test time =  52.81 sec
+----------------------------------------------------------
+Test Passed.
+"5MW_OC3Spar_DLL_WTurb_WavesIrr" end time: Apr 14 13:03 MDT
+"5MW_OC3Spar_DLL_WTurb_WavesIrr" time elapsed: 00:00:52
+----------------------------------------------------------
+
+24/57 Testing: 5MW_OC4Semi_WSt_WavesWN
+24/57 Test: 5MW_OC4Semi_WSt_WavesWN
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "5MW_OC4Semi_WSt_WavesWN" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_OC4Semi_WSt_WavesWN" start time: Apr 14 13:03 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC4Semi_WSt_WavesWN/5MW_OC4Semi_WSt_WavesWN.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC4Semi_WSt_WavesWN/5MW_OC4Semi_WSt_WavesWN.log
+COMPLETE with code 0
+<end of output>
+Test time = 191.39 sec
+----------------------------------------------------------
+Test Passed.
+"5MW_OC4Semi_WSt_WavesWN" end time: Apr 14 13:06 MDT
+"5MW_OC4Semi_WSt_WavesWN" time elapsed: 00:03:11
+----------------------------------------------------------
+
+25/57 Testing: 5MW_Land_BD_DLL_WTurb
+25/57 Test: 5MW_Land_BD_DLL_WTurb
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "5MW_Land_BD_DLL_WTurb" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_Land_BD_DLL_WTurb" start time: Apr 14 13:06 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_Land_BD_DLL_WTurb/5MW_Land_BD_DLL_WTurb.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_Land_BD_DLL_WTurb/5MW_Land_BD_DLL_WTurb.log
+COMPLETE with code 0
+<end of output>
+Test time = 168.50 sec
+----------------------------------------------------------
+Test Passed.
+"5MW_Land_BD_DLL_WTurb" end time: Apr 14 13:09 MDT
+"5MW_Land_BD_DLL_WTurb" time elapsed: 00:02:48
+----------------------------------------------------------
+
+26/57 Testing: 5MW_OC4Jckt_ExtPtfm
+26/57 Test: 5MW_OC4Jckt_ExtPtfm
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "5MW_OC4Jckt_ExtPtfm" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_OC4Jckt_ExtPtfm" start time: Apr 14 13:09 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC4Jckt_ExtPtfm/5MW_OC4Jckt_ExtPtfm.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC4Jckt_ExtPtfm/5MW_OC4Jckt_ExtPtfm.log
+COMPLETE with code 0
+<end of output>
+Test time =  17.14 sec
+----------------------------------------------------------
+Test Passed.
+"5MW_OC4Jckt_ExtPtfm" end time: Apr 14 13:09 MDT
+"5MW_OC4Jckt_ExtPtfm" time elapsed: 00:00:17
+----------------------------------------------------------
+
+27/57 Testing: HelicalWake_OLAF
+27/57 Test: HelicalWake_OLAF
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "HelicalWake_OLAF" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"HelicalWake_OLAF" start time: Apr 14 13:09 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/HelicalWake_OLAF/HelicalWake_OLAF.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/HelicalWake_OLAF/HelicalWake_OLAF.log
+COMPLETE with code 0
+<end of output>
+Test time =  39.33 sec
+----------------------------------------------------------
+Test Passed.
+"HelicalWake_OLAF" end time: Apr 14 13:10 MDT
+"HelicalWake_OLAF" time elapsed: 00:00:39
+----------------------------------------------------------
+
+28/57 Testing: EllipticalWing_OLAF
+28/57 Test: EllipticalWing_OLAF
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "EllipticalWing_OLAF" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"EllipticalWing_OLAF" start time: Apr 14 13:10 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/EllipticalWing_OLAF/EllipticalWing_OLAF.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/EllipticalWing_OLAF/EllipticalWing_OLAF.log
+COMPLETE with code 0
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"EllipticalWing_OLAF" end time: Apr 14 13:10 MDT
+"EllipticalWing_OLAF" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/57 Testing: StC_test_OC4Semi
+29/57 Test: StC_test_OC4Semi
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastRegressionCase.py" "StC_test_OC4Semi" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"StC_test_OC4Semi" start time: Apr 14 13:10 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/StC_test_OC4Semi/StC_test_OC4Semi.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/StC_test_OC4Semi/StC_test_OC4Semi.log
+COMPLETE with code 0
+<end of output>
+Test time = 221.85 sec
+----------------------------------------------------------
+Test Passed.
+"StC_test_OC4Semi" end time: Apr 14 13:14 MDT
+"StC_test_OC4Semi" time elapsed: 00:03:41
+----------------------------------------------------------
+
+30/57 Testing: IEA_LB_RWT-AeroAcoustics
+30/57 Test: IEA_LB_RWT-AeroAcoustics
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastAeroAcousticRegressionCase.py" "IEA_LB_RWT-AeroAcoustics" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"IEA_LB_RWT-AeroAcoustics" start time: Apr 14 13:14 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/IEA_LB_RWT-AeroAcoustics/IEA_LB_RWT-AeroAcoustics.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/IEA_LB_RWT-AeroAcoustics/IEA_LB_RWT-AeroAcoustics.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =  27.63 sec
+----------------------------------------------------------
+Test Passed.
+"IEA_LB_RWT-AeroAcoustics" end time: Apr 14 13:14 MDT
+"IEA_LB_RWT-AeroAcoustics" time elapsed: 00:00:27
+----------------------------------------------------------
+
+31/57 Testing: WP_Stationary_Linear
+31/57 Test: WP_Stationary_Linear
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastLinearRegressionCase.py" "WP_Stationary_Linear" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"WP_Stationary_Linear" start time: Apr 14 13:14 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/WP_Stationary_Linear/WP_Stationary_Linear.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/WP_Stationary_Linear/WP_Stationary_Linear.log
+COMPLETE with code 0
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"WP_Stationary_Linear" end time: Apr 14 13:14 MDT
+"WP_Stationary_Linear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/57 Testing: Ideal_Beam_Fixed_Free_Linear
+32/57 Test: Ideal_Beam_Fixed_Free_Linear
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastLinearRegressionCase.py" "Ideal_Beam_Fixed_Free_Linear" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"Ideal_Beam_Fixed_Free_Linear" start time: Apr 14 13:14 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/Ideal_Beam_Fixed_Free_Linear/Ideal_Beam_Fixed_Free_Linear.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/Ideal_Beam_Fixed_Free_Linear/Ideal_Beam_Fixed_Free_Linear.log
+COMPLETE with code 0
+<end of output>
+Test time =   0.95 sec
+----------------------------------------------------------
+Test Passed.
+"Ideal_Beam_Fixed_Free_Linear" end time: Apr 14 13:14 MDT
+"Ideal_Beam_Fixed_Free_Linear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/57 Testing: Ideal_Beam_Free_Free_Linear
+33/57 Test: Ideal_Beam_Free_Free_Linear
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastLinearRegressionCase.py" "Ideal_Beam_Free_Free_Linear" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"Ideal_Beam_Free_Free_Linear" start time: Apr 14 13:14 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/Ideal_Beam_Free_Free_Linear/Ideal_Beam_Free_Free_Linear.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/Ideal_Beam_Free_Free_Linear/Ideal_Beam_Free_Free_Linear.log
+COMPLETE with code 0
+<end of output>
+Test time =   0.99 sec
+----------------------------------------------------------
+Test Passed.
+"Ideal_Beam_Free_Free_Linear" end time: Apr 14 13:14 MDT
+"Ideal_Beam_Free_Free_Linear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/57 Testing: 5MW_Land_BD_Linear
+34/57 Test: 5MW_Land_BD_Linear
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastLinearRegressionCase.py" "5MW_Land_BD_Linear" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_Land_BD_Linear" start time: Apr 14 13:14 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_Land_BD_Linear/5MW_Land_BD_Linear.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_Land_BD_Linear/5MW_Land_BD_Linear.log
+COMPLETE with code 0
+<end of output>
+Test time =  24.26 sec
+----------------------------------------------------------
+Test Passed.
+"5MW_Land_BD_Linear" end time: Apr 14 13:14 MDT
+"5MW_Land_BD_Linear" time elapsed: 00:00:24
+----------------------------------------------------------
+
+35/57 Testing: 5MW_OC4Semi_Linear
+35/57 Test: 5MW_OC4Semi_Linear
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeOpenfastLinearRegressionCase.py" "5MW_OC4Semi_Linear" "/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"5MW_OC4Semi_Linear" start time: Apr 14 13:14 MDT
+Output:
+----------------------------------------------------------
+-- Using gold standard files with machine-compiler type macos-gnu
+/Users/abarker/Desktop/Fast/openfast/build/glue-codes/openfast/openfast /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC4Semi_Linear/5MW_OC4Semi_Linear.fst > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/glue-codes/openfast/5MW_OC4Semi_Linear/5MW_OC4Semi_Linear.log
+COMPLETE with code 0
+<end of output>
+Test time =  64.44 sec
+----------------------------------------------------------
+Test Passed.
+"5MW_OC4Semi_Linear" end time: Apr 14 13:16 MDT
+"5MW_OC4Semi_Linear" time elapsed: 00:01:04
+----------------------------------------------------------
+
+36/57 Testing: ad_timeseries_shutdown
+36/57 Test: ad_timeseries_shutdown
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeAerodynRegressionCase.py" "ad_timeseries_shutdown" "/Users/abarker/Desktop/Fast/openfast/build/modules/aerodyn/aerodyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/aerodyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"ad_timeseries_shutdown" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/aerodyn/aerodyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/aerodyn/ad_timeseries_shutdown/ad_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/aerodyn/ad_timeseries_shutdown/ad_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =  11.00 sec
+----------------------------------------------------------
+Test Passed.
+"ad_timeseries_shutdown" end time: Apr 14 13:16 MDT
+"ad_timeseries_shutdown" time elapsed: 00:00:11
+----------------------------------------------------------
+
+37/57 Testing: bd_5MW_dynamic
+37/57 Test: bd_5MW_dynamic
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeBeamdynRegressionCase.py" "bd_5MW_dynamic" "/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"bd_5MW_dynamic" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_5MW_dynamic/bd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_5MW_dynamic/bd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =  24.90 sec
+----------------------------------------------------------
+Test Passed.
+"bd_5MW_dynamic" end time: Apr 14 13:16 MDT
+"bd_5MW_dynamic" time elapsed: 00:00:24
+----------------------------------------------------------
+
+38/57 Testing: bd_5MW_dynamic_gravity_Az00
+38/57 Test: bd_5MW_dynamic_gravity_Az00
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeBeamdynRegressionCase.py" "bd_5MW_dynamic_gravity_Az00" "/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"bd_5MW_dynamic_gravity_Az00" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_5MW_dynamic_gravity_Az00/bd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_5MW_dynamic_gravity_Az00/bd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   4.89 sec
+----------------------------------------------------------
+Test Passed.
+"bd_5MW_dynamic_gravity_Az00" end time: Apr 14 13:16 MDT
+"bd_5MW_dynamic_gravity_Az00" time elapsed: 00:00:04
+----------------------------------------------------------
+
+39/57 Testing: bd_5MW_dynamic_gravity_Az90
+39/57 Test: bd_5MW_dynamic_gravity_Az90
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeBeamdynRegressionCase.py" "bd_5MW_dynamic_gravity_Az90" "/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"bd_5MW_dynamic_gravity_Az90" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_5MW_dynamic_gravity_Az90/bd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_5MW_dynamic_gravity_Az90/bd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   4.48 sec
+----------------------------------------------------------
+Test Passed.
+"bd_5MW_dynamic_gravity_Az90" end time: Apr 14 13:16 MDT
+"bd_5MW_dynamic_gravity_Az90" time elapsed: 00:00:04
+----------------------------------------------------------
+
+40/57 Testing: bd_curved_beam
+40/57 Test: bd_curved_beam
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeBeamdynRegressionCase.py" "bd_curved_beam" "/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"bd_curved_beam" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_curved_beam/bd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_curved_beam/bd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"bd_curved_beam" end time: Apr 14 13:16 MDT
+"bd_curved_beam" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/57 Testing: bd_isotropic_rollup
+41/57 Test: bd_isotropic_rollup
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeBeamdynRegressionCase.py" "bd_isotropic_rollup" "/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"bd_isotropic_rollup" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_isotropic_rollup/bd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_isotropic_rollup/bd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"bd_isotropic_rollup" end time: Apr 14 13:16 MDT
+"bd_isotropic_rollup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/57 Testing: bd_static_cantilever_beam
+42/57 Test: bd_static_cantilever_beam
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeBeamdynRegressionCase.py" "bd_static_cantilever_beam" "/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"bd_static_cantilever_beam" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_static_cantilever_beam/bd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_static_cantilever_beam/bd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"bd_static_cantilever_beam" end time: Apr 14 13:16 MDT
+"bd_static_cantilever_beam" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/57 Testing: bd_static_twisted_with_k1
+43/57 Test: bd_static_twisted_with_k1
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeBeamdynRegressionCase.py" "bd_static_twisted_with_k1" "/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"bd_static_twisted_with_k1" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/beamdyn/beamdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_static_twisted_with_k1/bd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/beamdyn/bd_static_twisted_with_k1/bd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"bd_static_twisted_with_k1" end time: Apr 14 13:16 MDT
+"bd_static_twisted_with_k1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/57 Testing: hd_OC3tripod_offshore_fixedbottom_wavesirr
+44/57 Test: hd_OC3tripod_offshore_fixedbottom_wavesirr
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeHydrodynRegressionCase.py" "hd_OC3tripod_offshore_fixedbottom_wavesirr" "/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"hd_OC3tripod_offshore_fixedbottom_wavesirr" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_OC3tripod_offshore_fixedbottom_wavesirr/hd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_OC3tripod_offshore_fixedbottom_wavesirr/hd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   2.76 sec
+----------------------------------------------------------
+Test Passed.
+"hd_OC3tripod_offshore_fixedbottom_wavesirr" end time: Apr 14 13:16 MDT
+"hd_OC3tripod_offshore_fixedbottom_wavesirr" time elapsed: 00:00:02
+----------------------------------------------------------
+
+45/57 Testing: hd_5MW_ITIBarge_DLL_WTurb_WavesIrr
+45/57 Test: hd_5MW_ITIBarge_DLL_WTurb_WavesIrr
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeHydrodynRegressionCase.py" "hd_5MW_ITIBarge_DLL_WTurb_WavesIrr" "/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"hd_5MW_ITIBarge_DLL_WTurb_WavesIrr" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_5MW_ITIBarge_DLL_WTurb_WavesIrr/hd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_5MW_ITIBarge_DLL_WTurb_WavesIrr/hd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   1.07 sec
+----------------------------------------------------------
+Test Passed.
+"hd_5MW_ITIBarge_DLL_WTurb_WavesIrr" end time: Apr 14 13:16 MDT
+"hd_5MW_ITIBarge_DLL_WTurb_WavesIrr" time elapsed: 00:00:01
+----------------------------------------------------------
+
+46/57 Testing: hd_5MW_OC3Spar_DLL_WTurb_WavesIrr
+46/57 Test: hd_5MW_OC3Spar_DLL_WTurb_WavesIrr
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeHydrodynRegressionCase.py" "hd_5MW_OC3Spar_DLL_WTurb_WavesIrr" "/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"hd_5MW_OC3Spar_DLL_WTurb_WavesIrr" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_5MW_OC3Spar_DLL_WTurb_WavesIrr/hd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_5MW_OC3Spar_DLL_WTurb_WavesIrr/hd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   5.01 sec
+----------------------------------------------------------
+Test Passed.
+"hd_5MW_OC3Spar_DLL_WTurb_WavesIrr" end time: Apr 14 13:16 MDT
+"hd_5MW_OC3Spar_DLL_WTurb_WavesIrr" time elapsed: 00:00:05
+----------------------------------------------------------
+
+47/57 Testing: hd_5MW_OC4Semi_WSt_WavesWN
+47/57 Test: hd_5MW_OC4Semi_WSt_WavesWN
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeHydrodynRegressionCase.py" "hd_5MW_OC4Semi_WSt_WavesWN" "/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"hd_5MW_OC4Semi_WSt_WavesWN" start time: Apr 14 13:16 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_5MW_OC4Semi_WSt_WavesWN/hd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_5MW_OC4Semi_WSt_WavesWN/hd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =  17.99 sec
+----------------------------------------------------------
+Test Passed.
+"hd_5MW_OC4Semi_WSt_WavesWN" end time: Apr 14 13:17 MDT
+"hd_5MW_OC4Semi_WSt_WavesWN" time elapsed: 00:00:17
+----------------------------------------------------------
+
+48/57 Testing: hd_5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti
+48/57 Test: hd_5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeHydrodynRegressionCase.py" "hd_5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti" "/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"hd_5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti" start time: Apr 14 13:17 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti/hd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti/hd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   2.69 sec
+----------------------------------------------------------
+Test Passed.
+"hd_5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti" end time: Apr 14 13:17 MDT
+"hd_5MW_TLP_DLL_WTurb_WavesIrr_WavesMulti" time elapsed: 00:00:02
+----------------------------------------------------------
+
+49/57 Testing: hd_TaperCylinderPitchMoment
+49/57 Test: hd_TaperCylinderPitchMoment
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeHydrodynRegressionCase.py" "hd_TaperCylinderPitchMoment" "/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"hd_TaperCylinderPitchMoment" start time: Apr 14 13:17 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/hydrodyn/hydrodyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_TaperCylinderPitchMoment/hd_driver.inp > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/hydrodyn/hd_TaperCylinderPitchMoment/hd_driver.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"hd_TaperCylinderPitchMoment" end time: Apr 14 13:17 MDT
+"hd_TaperCylinderPitchMoment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/57 Testing: SD_Cable_5Joints
+50/57 Test: SD_Cable_5Joints
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeSubdynRegressionCase.py" "SD_Cable_5Joints" "/Users/abarker/Desktop/Fast/openfast/build/modules/subdyn/subdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"SD_Cable_5Joints" start time: Apr 14 13:17 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/subdyn/subdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn/SD_Cable_5Joints/SD_Cable_5Joints.dvr > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn/SD_Cable_5Joints/SD_Cable_5Joints.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   1.05 sec
+----------------------------------------------------------
+Test Passed.
+"SD_Cable_5Joints" end time: Apr 14 13:17 MDT
+"SD_Cable_5Joints" time elapsed: 00:00:01
+----------------------------------------------------------
+
+51/57 Testing: SD_PendulumDamp
+51/57 Test: SD_PendulumDamp
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeSubdynRegressionCase.py" "SD_PendulumDamp" "/Users/abarker/Desktop/Fast/openfast/build/modules/subdyn/subdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"SD_PendulumDamp" start time: Apr 14 13:17 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/subdyn/subdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn/SD_PendulumDamp/SD_PendulumDamp.dvr > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn/SD_PendulumDamp/SD_PendulumDamp.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   1.38 sec
+----------------------------------------------------------
+Test Passed.
+"SD_PendulumDamp" end time: Apr 14 13:17 MDT
+"SD_PendulumDamp" time elapsed: 00:00:01
+----------------------------------------------------------
+
+52/57 Testing: SD_Rigid
+52/57 Test: SD_Rigid
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeSubdynRegressionCase.py" "SD_Rigid" "/Users/abarker/Desktop/Fast/openfast/build/modules/subdyn/subdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"SD_Rigid" start time: Apr 14 13:17 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/subdyn/subdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn/SD_Rigid/SD_Rigid.dvr > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn/SD_Rigid/SD_Rigid.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"SD_Rigid" end time: Apr 14 13:17 MDT
+"SD_Rigid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/57 Testing: SD_SparHanging
+53/57 Test: SD_SparHanging
+Command: "/Users/abarker/miniconda3/bin/python3" "/Users/abarker/Desktop/Fast/openfast/reg_tests/executeSubdynRegressionCase.py" "SD_SparHanging" "/Users/abarker/Desktop/Fast/openfast/build/modules/subdyn/subdyn_driver" "/Users/abarker/Desktop/Fast/openfast/reg_tests/.." "/Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn" "0.00001" "Darwin" "GNU"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/reg_tests
+"SD_SparHanging" start time: Apr 14 13:17 MDT
+Output:
+----------------------------------------------------------
+/Users/abarker/Desktop/Fast/openfast/build/modules/subdyn/subdyn_driver /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn/SD_SparHanging/SD_SparHanging.dvr > /Users/abarker/Desktop/Fast/openfast/build/reg_tests/modules/subdyn/SD_SparHanging/SD_SparHanging.log
+COMPLETE with code 0
+
+
+
+
+<end of output>
+Test time =   1.17 sec
+----------------------------------------------------------
+Test Passed.
+"SD_SparHanging" end time: Apr 14 13:17 MDT
+"SD_SparHanging" time elapsed: 00:00:01
+----------------------------------------------------------
+
+54/57 Testing: beamdyn_utest
+54/57 Test: beamdyn_utest
+Command: "/Users/abarker/Desktop/Fast/openfast/build/unit_tests/beamdyn/beamdyn_utest"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/unit_tests/beamdyn
+"beamdyn_utest" start time: Apr 14 13:17 MDT
+Output:
+----------------------------------------------------------
+.....................
+Time:         0.001 seconds
+  
+ OK
+ (21 tests)
+<end of output>
+Test time =   0.84 sec
+----------------------------------------------------------
+Test Passed.
+"beamdyn_utest" end time: Apr 14 13:17 MDT
+"beamdyn_utest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/57 Testing: nwtc_library_utest
+55/57 Test: nwtc_library_utest
+Command: "/Users/abarker/Desktop/Fast/openfast/build/unit_tests/nwtc-library/nwtc_library_utest"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/unit_tests/nwtc-library
+"nwtc_library_utest" start time: Apr 14 13:17 MDT
+Output:
+----------------------------------------------------------
+..................
+Time:         0.004 seconds
+  
+ OK
+ (18 tests)
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"nwtc_library_utest" end time: Apr 14 13:17 MDT
+"nwtc_library_utest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/57 Testing: fvw_utest
+56/57 Test: fvw_utest
+Command: "/Users/abarker/Desktop/Fast/openfast/build/unit_tests/aerodyn/fvw_utest"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/unit_tests/aerodyn
+"fvw_utest" start time: Apr 14 13:17 MDT
+Output:
+----------------------------------------------------------
+.[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  1.3E-14
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  1.3E-16
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  1.6E-16
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  1.3E-16
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  1.1E-21
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  1.1E-21
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  1.1E-21
+[ OK ] FVW: Uind 1seg/2seg tol:  1.0E-04, mean:  1.1E-21
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind part method1/2 tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind tree 0 part tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind tree 1 part tol:  1.0E-04, mean:  0.0E+00
+[ OK ] FVW: Uind tree 81 part tol:  1.0E-02, mean:  1.9E-17
+[ OK ] FVW: Uind tree 81 part tol:  1.0E-02, mean:  3.5E-03
+[ OK ] FVW: Uind tree 81 part tol:  1.0E-02, mean:  2.6E-04
+[ OK ] FVW: Uind tree 81 part tol:  1.0E-02, mean:  6.7E-04
+[ OK ] FVW: Err. stat tree cut ok 4
+[ OK ] FVW: Uind 10 part/sgmt no reg tol:  1.0E-03, mean:  8.0E-05
+[ OK ] FVW: Uind 2 part/sgmt noreg tol:  3.0E-01, mean:  3.0E-02
+[ OK ] FVW: Uind 10 part/sgmt w.reg tol:  5.0E-02, mean:  8.5E-03
+
+Time:         0.001 seconds
+  
+ OK
+ (1 test)
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Passed.
+"fvw_utest" end time: Apr 14 13:17 MDT
+"fvw_utest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/57 Testing: inflowwind_utest
+57/57 Test: inflowwind_utest
+Command: "/Users/abarker/Desktop/Fast/openfast/build/unit_tests/inflowwind/inflowwind_utest"
+Directory: /Users/abarker/Desktop/Fast/openfast/build/unit_tests/inflowwind
+"inflowwind_utest" start time: Apr 14 13:17 MDT
+Output:
+----------------------------------------------------------
+......... Running InflowWind.
+
+Time:         0.003 seconds
+  
+ OK
+ (9 tests)
+<end of output>
+Test time =   0.70 sec
+----------------------------------------------------------
+Test Passed.
+"inflowwind_utest" end time: Apr 14 13:17 MDT
+"inflowwind_utest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 14 13:17 MDT
+
+aeroacoustics =  27.63 sec*proc
+
+aerodyn =  11.00 sec*proc
+
+aerodyn14 = 396.88 sec*proc
+
+aerodyn15 = 2647.29 sec*proc
+
+beamdyn = 230.22 sec*proc
+
+bem =  11.00 sec*proc
+
+dynamic =  34.27 sec*proc
+
+elastodyn = 2825.86 sec*proc
+
+extptfm =  17.14 sec*proc
+
+hydrodyn = 2362.06 sec*proc
+
+linear =  91.29 sec*proc
+
+map = 124.93 sec*proc
+
+moordyn = 413.24 sec*proc
+
+offshore = 2301.46 sec*proc
+
+olaf =  39.96 sec*proc
+
+openfast = 3374.46 sec*proc
+
+servodyn = 3287.13 sec*proc
+
+static =   1.25 sec*proc
+
+subdyn = 1733.60 sec*proc
+

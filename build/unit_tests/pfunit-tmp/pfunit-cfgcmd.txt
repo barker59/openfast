@@ -1,0 +1,1 @@
+cmd='/Users/abarker/miniconda3/lib/python3.8/site-packages/cmake/data/CMake.app/Contents/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/abarker/Desktop/Fast/openfast/build/unit_tests/pfunit;-DCMAKE_Fortran_COMPILER=/usr/local/bin/gfortran;-DROBUST=OFF;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

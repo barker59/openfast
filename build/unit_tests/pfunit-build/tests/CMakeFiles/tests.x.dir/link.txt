@@ -1,0 +1,1 @@
+/usr/local/bin/gfortran -g -O0 -fbounds-check -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk CMakeFiles/tests.x.dir/selfTests.F90.o -o tests.x  ../source/libpfunit.a libtestpfunit.a ../source/libpfunit.a 

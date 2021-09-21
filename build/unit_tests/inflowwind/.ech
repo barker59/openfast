@@ -1,0 +1,48 @@
+Echo file for InflowWind input file: 
+------- InflowWind v3.01.* INPUT FILE -------------------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+Steady 8 m/s winds with no shear for FAST CertTests                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+---------------------------------------------------------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+ true            = Echo                
+ 2               = WindType            
+ 0               = PropagationDir      
+ 0               = VFlowAng            
+ 0               = VFlowAng            
+ 1               = NWindVel            
+          0   WindVxiList    - List of coordinates in the inertial X direction (m)
+          0   WindVyiList    - List of coordinates in the inertial Y direction (m)
+         90   WindVziList    - List of coordinates in the inertial Z direction (m)
+ 8.0             = HWindSpeed          
+ 90              = RefHt               
+ 0.1             = PLexp               
+ Wind/08ms.wnd   = FileName_Uni        
+ 90              = RefHt_Uni           
+ 125.88          = RefLength           
+ Wind/08ms.wnd   = FileName_BTS        
+ unused          = FilenameRoot        
+ False           = TowerFile           
+ wasp\Output\bas = FileName_u          
+ wasp\Output\bas = FileName_v          
+ wasp\Output\bas = FileName_w          
+ 64              = nx                  
+ 32              = ny                  
+ 32              = nz                  
+ 16              = dx                  
+ 3               = dy                  
+ 3               = dz                  
+ 90              = RefHt_HAWC          
+ 1               = ScaleMethod         
+ 1               = SFx                 
+ 1               = SFy                 
+ 1               = SFz                 
+ 12              = SigmaFx             
+ 8               = SigmaFy             
+ 2               = SigmaFz             
+ 5               = URef                
+ 2               = WindProfile         
+ 0               = PLExp_HAWC          
+ 0.03            = Z0                  
+ 0               = XOffset             
+ 0               = XOffset             
+ False           = SumPrint            
+"Wind1VelX,Wind1VelY,Wind1VelZ"     - Wind velocity at point WindVxiList(1),WindVyiList(1),WindVziList(1).  X, Y, and Z direction components.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+END of input file (the word "END" must appear in the first 3 columns of this last OutList line)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

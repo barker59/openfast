@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AOC_WSt Summary</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.2.0.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+  <script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.2.0.min.js"></script>
+  <script type="text/javascript"> Bokeh.set_log_level("info"); </script>
+  <style media="screen" type="text/css">    .cell-warning {      background-color: #efc15c;    }    .cell-highlight {      background-color: #f5ed86 ;    }  </style></head>
+<body>
+  <h2 class="text-center">AOC_WSt Summary</h2>
+  <h4 class="text-center">Maximum values for each norm are <span class="cell-warning">highlighted</span> and failing norms (norm >= 1e-05) are <span class="cell-highlight">highlighted</span></h2>
+  <div class="container">
+    <table class="table table-bordered table-hover table-sm" style="margin: auto; width: 100%; font-size:80%">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Channel</th>
+          <th>Relative Max Norm</th>
+          <th>Relative L2 Norm</th>
+          <th>Infinity Norm</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td><a href="#Time">Time</a></td>
+          <td>0.0000e+00</td>
+          <td>0.0000e+00</td>
+          <td>0.0000e+00</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td><a href="#Wind1VelX">Wind1VelX</a></td>
+          <td>0.0000e+00</td>
+          <td>0.0000e+00</td>
+          <td>0.0000e+00</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td><a href="#Wind1VelY">Wind1VelY</a></td>
+          <td>0.0000e+00</td>
+          <td>0.0000e+00</td>
+          <td>0.0000e+00</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td><a href="#Wind1VelZ">Wind1VelZ</a></td>
+          <td>0.0000e+00</td>
+          <td>0.0000e+00</td>
+          <td>0.0000e+00</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td><a href="#TipDxb3">TipDxb3</a></td>
+          <td>3.4133e-12</td>
+          <td>6.3239e-12</td>
+          <td>3.4133e-12</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td><a href="#TipDyb3">TipDyb3</a></td>
+          <td>3.9631e-13</td>
+          <td>7.8333e-13</td>
+          <td>3.9631e-13</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td><a href="#TipRDxb3">TipRDxb3</a></td>
+          <td>5.8086e-12</td>
+          <td>6.8267e-12</td>
+          <td>5.8086e-12</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td><a href="#TipRDyb3">TipRDyb3</a></td>
+          <td>4.4265e-11</td>
+          <td>1.3566e-11</td>
+          <td>6.2357e-11</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td><a href="#Spn5ALxb1">Spn5ALxb1</a></td>
+          <td class="cell-warning">3.4753e-10</td>
+          <td>4.5471e-11</td>
+          <td class="cell-warning">2.5727e-08</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td><a href="#Spn5ALyb1">Spn5ALyb1</a></td>
+          <td>2.0027e-10</td>
+          <td>7.5655e-11</td>
+          <td>3.6728e-09</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td><a href="#RotSpeed">RotSpeed</a></td>
+          <td>3.3511e-13</td>
+          <td>3.6866e-14</td>
+          <td>3.6209e-11</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td><a href="#LSSGagV">LSSGagV</a></td>
+          <td>1.1112e-13</td>
+          <td>1.4131e-14</td>
+          <td>1.2008e-11</td>
+        </tr>
+        <tr>
+          <th scope="row">13</th>
+          <td><a href="#HSShftV">HSShftV</a></td>
+          <td>1.1112e-13</td>
+          <td>1.4132e-14</td>
+          <td>3.3924e-10</td>
+        </tr>
+        <tr>
+          <th scope="row">14</th>
+          <td><a href="#RootFxb3">RootFxb3</a></td>
+          <td>7.6521e-11</td>
+          <td>1.9388e-11</td>
+          <td>2.4886e-10</td>
+        </tr>
+        <tr>
+          <th scope="row">15</th>
+          <td><a href="#RootFyb3">RootFyb3</a></td>
+          <td>1.1431e-11</td>
+          <td>3.2901e-12</td>
+          <td>4.4626e-11</td>
+        </tr>
+        <tr>
+          <th scope="row">16</th>
+          <td><a href="#RootMEdg3">RootMEdg3</a></td>
+          <td>1.7407e-11</td>
+          <td>4.6728e-12</td>
+          <td>2.2262e-10</td>
+        </tr>
+        <tr>
+          <th scope="row">17</th>
+          <td><a href="#RootMFlp3">RootMFlp3</a></td>
+          <td>6.9448e-11</td>
+          <td>2.0991e-11</td>
+          <td>7.3412e-10</td>
+        </tr>
+        <tr>
+          <th scope="row">18</th>
+          <td><a href="#Spn4MLxb1">Spn4MLxb1</a></td>
+          <td>9.5418e-11</td>
+          <td>3.3919e-11</td>
+          <td>9.5418e-11</td>
+        </tr>
+        <tr>
+          <th scope="row">19</th>
+          <td><a href="#Spn4MLyb1">Spn4MLyb1</a></td>
+          <td>3.3921e-10</td>
+          <td>9.9129e-11</td>
+          <td>3.7430e-10</td>
+        </tr>
+        <tr>
+          <th scope="row">20</th>
+          <td><a href="#LSSGagFxs">LSSGagFxs</a></td>
+          <td>8.3014e-11</td>
+          <td>9.8207e-12</td>
+          <td>8.1596e-10</td>
+        </tr>
+        <tr>
+          <th scope="row">21</th>
+          <td><a href="#LSSGagFys">LSSGagFys</a></td>
+          <td>1.7566e-10</td>
+          <td class="cell-warning">3.0317e-10</td>
+          <td>1.7566e-10</td>
+        </tr>
+        <tr>
+          <th scope="row">22</th>
+          <td><a href="#LSSGagFzs">LSSGagFzs</a></td>
+          <td>1.1722e-10</td>
+          <td>1.1533e-12</td>
+          <td>1.1722e-10</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td><a href="#LSShftTq">LSShftTq</a></td>
+          <td>2.4515e-11</td>
+          <td>5.5403e-12</td>
+          <td>4.0057e-10</td>
+        </tr>
+        <tr>
+          <th scope="row">24</th>
+          <td><a href="#HSShftTq">HSShftTq</a></td>
+          <td>1.4180e-11</td>
+          <td>5.5403e-12</td>
+          <td>1.4180e-11</td>
+        </tr>
+        <tr>
+          <th scope="row">25</th>
+          <td><a href="#LSShftPwr">LSShftPwr</a></td>
+          <td>4.4022e-11</td>
+          <td>9.1464e-12</td>
+          <td>4.4828e-09</td>
+        </tr>
+        <tr>
+          <th scope="row">26</th>
+          <td><a href="#HSShftPwr">HSShftPwr</a></td>
+          <td>4.3876e-11</td>
+          <td>9.1195e-12</td>
+          <td>4.4698e-09</td>
+        </tr>
+        <tr>
+          <th scope="row">27</th>
+          <td><a href="#GenTq">GenTq</a></td>
+          <td>4.7198e-15</td>
+          <td>4.3538e-15</td>
+          <td>5.7454e-15</td>
+        </tr>
+        <tr>
+          <th scope="row">28</th>
+          <td><a href="#GenPwr">GenPwr</a></td>
+          <td>8.1780e-16</td>
+          <td>2.5276e-16</td>
+          <td>1.4552e-11</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+  </div>
+</body>
+</html>
