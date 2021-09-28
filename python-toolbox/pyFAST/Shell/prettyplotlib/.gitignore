@@ -1,0 +1,17 @@
+*~
+build
+dist
+.project
+.pydevproject
+*.pyc
+*egg-info
+
+# PyCharm IDE
+.idea/
+
+# test results
+result_images
+tests/result_images
+
+# virtual environment
+ve

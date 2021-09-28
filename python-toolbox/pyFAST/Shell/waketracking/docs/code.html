@@ -1,0 +1,627 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Code Reference &#8212; waketracking  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Samples" href="samples.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="code-reference">
+<h1>Code Reference<a class="headerlink" href="#code-reference" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="dataloaders-module">
+<h2><code class="docutils literal"><span class="pre">dataloaders</span></code> module<a class="headerlink" href="#dataloaders-module" title="Permalink to this headline">¶</a></h2>
+<p>This module includes all data processing routines to arbitrary scalar or vector data into a standard form.</p>
+<span class="target" id="module-waketracking.dataloaders"></span><dl class="class">
+<dt id="waketracking.dataloaders.sampled_data">
+<em class="property">class </em><code class="descclassname">waketracking.dataloaders.</code><code class="descname">sampled_data</code><span class="sig-paren">(</span><em>outputDir='.'</em>, <em>prefix=None</em>, <em>NX=1</em>, <em>NY=None</em>, <em>NZ=None</em>, <em>datasize=3</em>, <em>npzdata='arrayData.npz'</em>, <em>interpHoles=False</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.dataloaders.sampled_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic regularly sampled data object</p>
+<p>Attempts to load processed data with shape
+(Ntimes,NX,NY,NZ,datasize).</p>
+<p>I/O and processing of the data should take place in __init__ of
+the derived class.</p>
+<p>All inherited readers should call this generic data reader for
+consistency. The resulting data object should contain:</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>ts: TimeSeries object with information regarding the location</dt>
+<dd>of the data (None for raw data)</dd>
+</dl>
+</li>
+<li>Ntimes: Number of output time directories</li>
+<li>NX,NY,NZ: Number of points in the x,y,z directions</li>
+<li>datasize: Dimension of the data (scalar=1, vector=3)</li>
+<li>x,y,z: Arrays with shape (NX,NY,NZ)</li>
+<li>data: Array with shape (Ntimes,NX,NY,NZ,datasize)</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>outputDir</strong> (<em>string</em>) – Path to directory containing time subdirectories.</li>
+<li><strong>prefix</strong> (<em>string</em><em>, </em><em>optional</em>) – Data file prefix.</li>
+<li><strong>NX</strong><strong>,</strong><strong>NY</strong><strong>,</strong><strong>NZ</strong> (<em>integer</em>) – Dimensions of data, which depending on the reader may be
+detected or read from the data file.</li>
+<li><strong>datasize</strong> (<em>integer</em>) – Describes the type of data (scalar=1, vector=3).</li>
+<li><strong>npzdata</strong> (<em>string</em>) – The compressed numpy data file to load from and save to.</li>
+<li><strong>interpHoles</strong> (<em>boolean</em><em>, </em><em>optional</em>) – Attempt to interpolate data onto a regular grid in case
+the input data has sampling errors. This depends on the
+np.unique function to identify coordinates.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="waketracking.dataloaders.sampled_data.sliceI">
+<code class="descname">sliceI</code><span class="sig-paren">(</span><em>i=0</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.dataloaders.sampled_data.sliceI" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return slice through the dimension 0.</p>
+<p>This is probably the only slicing that makes sense…</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><ul class="simple">
+<li><strong>xh,xv</strong> (<em>ndarray</em>) – Planar coordinaates–horizontal and vertical–with the
+dimensions (Nh,Nv).</li>
+<li><strong>u</strong> (<em>ndarray</em>) – Velocity array with dimensions (Ntimes,Nh,Nv,datasize).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="waketracking.dataloaders.sampled_data.sliceJ">
+<code class="descname">sliceJ</code><span class="sig-paren">(</span><em>j=0</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.dataloaders.sampled_data.sliceJ" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return slice through the dimension 1</p>
+<p>Warning: Depending on the data sampling set up, this slicing
+probably does not make sense.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="waketracking.dataloaders.sampled_data.sliceK">
+<code class="descname">sliceK</code><span class="sig-paren">(</span><em>k=0</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.dataloaders.sampled_data.sliceK" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return slice through the dimension 2</p>
+<p>Warning: Depending on the data sampling set up, this slicing
+probably does not make sense.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="waketracking.dataloaders.sampled_data.slice_at">
+<code class="descname">slice_at</code><span class="sig-paren">(</span><em>x=None</em>, <em>y=None</em>, <em>z=None</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.dataloaders.sampled_data.slice_at" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a set of 2D data near/at the specified slice location.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><ul class="simple">
+<li><strong>* x0,x1,x2</strong> (<em>ndarray</em>) – Sampling grid with dimensions (N1,N2); coordinates are in
+the Cartesian reference frame.</li>
+<li><strong>* u</strong> (<em>ndarray</em>) – Velocity array with dimensions (Ntimes,N1,N2,datasize).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="waketracking.dataloaders.rawdata">
+<em class="property">class </em><code class="descclassname">waketracking.dataloaders.</code><code class="descname">rawdata</code><span class="sig-paren">(</span><em>fname</em>, <em>NY</em>, <em>NZ=None</em>, <em>skiprows=1</em>, <em>delimiter='</em>, <em>'</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.dataloaders.rawdata" title="Permalink to this definition">¶</a></dt>
+<dd><p>Raw data, e.g., in csv format.</p>
+<p>See superclass sampled_data for more information.</p>
+<p>Reads a single snapshot from the specified file</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>fname</strong> (<em>string</em>) – Path to file.</li>
+<li><strong>NY</strong> (<em>integer</em>) – Number of horizontal points.</li>
+<li><strong>NZ</strong> (<em>integer</em><em>, </em><em>optional</em>) – Number of vertical points; if omitted, assumed equal to NY.</li>
+<li><strong>skiprows</strong> (<em>integer</em><em>, </em><em>optional</em>) – Number of rows to skip when calling np.loadtxt.</li>
+<li><strong>delimiter</strong> (<em>string</em><em>, </em><em>optional</em>) – String to use as delimiter when calling np.loadtxt.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="waketracking.dataloaders.pandas_dataframe">
+<em class="property">class </em><code class="descclassname">waketracking.dataloaders.</code><code class="descname">pandas_dataframe</code><span class="sig-paren">(</span><em>frames</em>, <em>NY=None</em>, <em>NZ=None</em>, <em>xr=None</em>, <em>refineFactor=None</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.dataloaders.pandas_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Raw data from pandas dataframe(s)</p>
+<p>See superclass sampled_data for more information.</p>
+<p>Reads a single time instance from one or more scans provided
+in pandas’ DataFrame format. Data are assumed to be scalar
+fields.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>frames</strong> (<em>DataFrame</em><em>, </em><em>list</em><em>, or </em><em>tuple</em>) – Pandas frames containing scan data.</li>
+<li><strong>NY</strong><strong>,</strong><strong>NZ</strong> (<em>integer</em><em>, </em><em>optional</em>) – Number of points in each scan direction.</li>
+<li><strong>xr</strong> (<em>ndarray</em><em>, </em><em>optional</em>) – Range gate distances; if None, then equal unit spacing is
+assumed.</li>
+<li><strong>refineFactor</strong> (<em>integer</em><em>, </em><em>optional</em>) – Refinement factor for super-resolving (by cubic
+interpolation) the field in the lateral and vertical
+directions.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="waketracking.dataloaders.foam_ensight_array">
+<em class="property">class </em><code class="descclassname">waketracking.dataloaders.</code><code class="descname">foam_ensight_array</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.dataloaders.foam_ensight_array" title="Permalink to this definition">¶</a></dt>
+<dd><p>OpenFOAM array sampling data in Ensight format</p>
+<p>See superclass sampled_data for more information.</p>
+<p>Reads time series data from subdirectories in ${outputDir}.
+Each time subdirectory should contain a file named
+‘${prefix}.000.U’.</p>
+<p>If NY or NZ are set to None, then the array dimensions
+will be guessed from the data.</p>
+<p>The .mesh files are assumed identical (the mesh is only read
+once from the first directory)</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="waketracking.dataloaders.foam_ensight_array_series">
+<em class="property">class </em><code class="descclassname">waketracking.dataloaders.</code><code class="descname">foam_ensight_array_series</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.dataloaders.foam_ensight_array_series" title="Permalink to this definition">¶</a></dt>
+<dd><p>OpenFOAM array sampling data in Ensight format.</p>
+<p>New output format has a single output directory containing a series of .U
+files with a single associated .case and .mesh file.</p>
+<p>See superclass sampled_data for more information.</p>
+<p>Reads time series data from ${prefix}.case file ${outputDir}.
+The output directory should contain ${prefix}.mesh and solution
+samples named ${prefix}.#####.U</p>
+<p>Note: This reader does not use the TimeSeries object.</p>
+<p>If NY or NZ are set to None, then the array dimensions
+will be guessed from the data.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="waketrackers-module">
+<h2><code class="docutils literal"><span class="pre">waketrackers</span></code> module<a class="headerlink" href="#waketrackers-module" title="Permalink to this headline">¶</a></h2>
+<p>This module defines generic wake-tracking objects with general helper routines. To access the Tracker objects, <strong>the</strong> <code class="docutils literal"><span class="pre">track</span></code> <strong>function should be used</strong>. The classes here provide common functionality but should not be used directly.</p>
+<span class="target" id="module-waketracking.waketrackers"></span><dl class="function">
+<dt id="waketracking.waketrackers.track">
+<code class="descclassname">waketracking.waketrackers.</code><code class="descname">track</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.track" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the specified waketracker object. If no method is
+specified, then a list of available Tracker objects is printed.</p>
+<p>All arguments and keyword arguments are passed to the resultant
+object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>method</strong> (<em>string</em>) – Should correspond to a Tracker class object.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="waketracking.waketrackers.waketracker">
+<em class="property">class </em><code class="descclassname">waketracking.waketrackers.</code><code class="descname">waketracker</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.waketracker" title="Permalink to this definition">¶</a></dt>
+<dd><p>A general class for wake tracking operations.</p>
+<p>Tracking algorithms are expected to be implemented as children of
+this class.</p>
+<p>Process structured data in rotor-aligned frames of reference.
+Arguments may be in the form:</p>
+<blockquote>
+<div>waketracker(x, y, z, u, …)</div></blockquote>
+<p>or</p>
+<blockquote>
+<div>waketracker((x,y,z,u), …)</div></blockquote>
+<p>The latter form is useful if the datatracker object’s slice
+function is called inline.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>x</strong><strong>,</strong><strong>y</strong><strong>,</strong><strong>z</strong> (<em>ndarray</em>) – Sampling grid coordinates in a Cartesian reference frame,
+with shape (Nh,Nv). Used to calculate xh and xv, the
+horizontal and vertical grid coordinates in the rotor-
+aligned frame.</li>
+<li><strong>u</strong> (<em>ndarray</em>) – Instantaneous velocity array with shape
+(Ntimes,Nh,Nv,datasize) or (Ntimes,Nh,Nv) for which
+datasize=1 (i.e., scalar field) is assumed. In the scalar
+case, the velocity is assumed normal to the sampling plane;
+in the vector case, the planar normal velocity is
+calculated assuming that the sampling plane is only yawed
+(and not tilted).</li>
+<li><strong>horzRange</strong><strong>,</strong><strong>vertRange</strong> (<em>tuple</em><em>, </em><em>optional</em>) – Range of points in the horizontal and vertical directions,
+respectively, in the rotor-aligned sampling plane through
+which to search for the wake center</li>
+<li><strong>prefix</strong> (<em>string</em><em>, </em><em>optional</em>) – Root output directory to save processed data and images.</li>
+<li><strong>verbose</strong> (<em>boolean</em><em>, </em><em>optional</em>) – Screen output verbosity.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="waketracking.waketrackers.waketracker.averageVelocity">
+<code class="descname">averageVelocity</code><span class="sig-paren">(</span><em>Navg=-300</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.waketracker.averageVelocity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates moving average using
+scipy.ndimage.uniform_filter1d</p>
+<p>Called by removeShear()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>Navg</strong> (<em>integer</em><em>, </em><em>optional</em>) – Number of snapshots over which to average. If Navg &lt; 0,
+average from end of series only.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><strong>uavg</strong> – If Navg &lt; 0, uavg.shape==(Nh,Nv); otherwise a moving average
+is return, with uavg.shape==(Ntimes,Nh,Nv).</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ndarray</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="waketracking.waketrackers.waketracker.removeShear">
+<code class="descname">removeShear</code><span class="sig-paren">(</span><em>method='default'</em>, <em>Navg=-300</em>, <em>windProfile=None</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.waketracker.removeShear" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes wind shear from data.</p>
+<p>Calculates self.u from self.u_tot.</p>
+<p>Current supported methods:</p>
+<ul class="simple">
+<li>“default”: Estimate from fringes</li>
+<li><dl class="first docutils">
+<dt>“specified”: Wind profile specified as either a function or an</dt>
+<dd>array of heights vs horizontal velocity</dd>
+</dl>
+</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>method</strong> (<em>string</em><em>, </em><em>optional</em>) – Specify method to remove wind shear, or None to use data as
+is; some methods may require additional keyword arguments</li>
+<li><strong>Navg</strong> (<em>integer</em><em>, </em><em>optional</em>) – Number of snapshots to average over to obtain an
+instaneous average (when shearRemoval==’default’).
+If Navg &lt; 0, average from end of series only.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="waketracking.waketrackers.waketracker.trajectoryIn">
+<code class="descname">trajectoryIn</code><span class="sig-paren">(</span><em>frame</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.waketracker.trajectoryIn" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a tuple with the wake trajectory in the specified frame</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="waketracking.waketrackers.waketracker.fixTrajectoryErrors">
+<code class="descname">fixTrajectoryErrors</code><span class="sig-paren">(</span><em>update=False</em>, <em>istart=0</em>, <em>iend=None</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.waketracker.fixTrajectoryErrors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Some wake detection algorithms are not guaranteed to provide
+a valid trajectory. By default, the coordinates of failed
+detection points is set to be (min(y),min(z)). This routine
+locates points believed to be problem points and interpolates
+between surrounding points. Piecewise linear interpolation
+(np.interp) is used.</p>
+<p>NOT TESTED IN THIS VERSION</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>update</strong> (<em>boolean</em><em>, </em><em>optional</em>) – Set to True to update the ywake and zwake in place.</li>
+<li><strong>istart</strong><strong>,</strong><strong>iend</strong> (<em>integer</em><em>, </em><em>optional</em>) – The range of values to correct.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>yw_fix,zw_fix</strong> – Cleaned-up coordinates</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ndarray</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="waketracking.waketrackers.waketracker.clearPlot">
+<code class="descname">clearPlot</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.waketracker.clearPlot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resets all saved plot handles and requires reinitialization
+the next time plotContour is called.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="waketracking.waketrackers.waketracker.plotContour">
+<code class="descname">plotContour</code><span class="sig-paren">(</span><em>itime=0</em>, <em>cmin=None</em>, <em>cmax=None</em>, <em>cmap='jet'</em>, <em>markercolor='w'</em>, <em>outline=False</em>, <em>writepng=False</em>, <em>outdir='.'</em>, <em>seriesname='U'</em>, <em>dpi=100</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.waketracker.plotContour" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plot/update contour and center marker in the rotor-aligned
+frame at time ${itime}.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>itime</strong> (<em>integer</em>) – Index of the wake snapshot to plot.</li>
+<li><strong>cmin</strong><strong>,</strong><strong>cmax</strong> (<em>float</em><em>, </em><em>optional</em>) – Range of contour values to plot; if None, then set to min
+and max field values.</li>
+<li><strong>cmap</strong> (<em>string</em><em>, </em><em>optional</em>) – Colormap for the contour plot.</li>
+<li><strong>markercolor</strong> (<em>any matplotlib color</em><em>, </em><em>optional</em>) – To plot the detected wake center, otherwise set to None.</li>
+<li><strong>outline</strong> (<em>boolean</em><em>, </em><em>optional</em>) – If true, plot a representation of the detected wake edge.</li>
+<li><strong>writepng</strong> (<em>boolean</em><em>, </em><em>optional</em>) – If True, save image to
+${outdir}/${seriesname}_&lt;timeName&gt;.png</li>
+<li><strong>outdir</strong> (<em>string</em><em>, </em><em>optional</em>) – Output subdirectory.</li>
+<li><strong>seriesname</strong> (<em>string</em><em>, </em><em>optional</em>) – Prefix for image series (if writepng==True).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="waketracking.waketrackers.waketracker.plotOutline">
+<code class="descname">plotOutline</code><span class="sig-paren">(</span><em>itime=0</em>, <em>lw=2</em>, <em>ls='-'</em>, <em>facecolor='none'</em>, <em>edgecolor='w'</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.waketracker.plotOutline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Helper function for plotting a representation of the wake
+edge</p>
+<dl class="docutils">
+<dt>Additional plotting style keywords may be specified, e.g.:</dt>
+<dd>linewidth, linestyle, facecolor, edgecolor,…</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="waketracking.waketrackers.waketracker.saveSnapshots">
+<code class="descname">saveSnapshots</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.waketracker.saveSnapshots" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write out all snapshots to ${outdir}.</p>
+<p>See plotContour for keyword arguments.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="waketracking.waketrackers.contourwaketracker">
+<em class="property">class </em><code class="descclassname">waketracking.waketrackers.</code><code class="descname">contourwaketracker</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.waketrackers.contourwaketracker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for wake tracking based on (velocity) contours</p>
+<p>Inherits superclass waketracker</p>
+</dd></dl>
+
+</div>
+<div class="section" id="tracker-modules">
+<h2><code class="docutils literal"><span class="pre">Tracker</span></code> modules<a class="headerlink" href="#tracker-modules" title="Permalink to this headline">¶</a></h2>
+<p>These modules (that have the *WakeTracker suffix) implement the actual wake tracking algorithms.</p>
+<span class="target" id="module-waketracking.gaussian"></span><span class="target" id="module-waketracking.contour"></span></div>
+<div class="section" id="contour-functions-module">
+<h2><code class="docutils literal"><span class="pre">contour_functions</span></code> module<a class="headerlink" href="#contour-functions-module" title="Permalink to this headline">¶</a></h2>
+<p>This is a helper module for processing contour paths identified by <code class="docutils literal"><span class="pre">matplotlib._cntr.Cntr</span></code>.</p>
+<span class="target" id="module-waketracking.contour_functions"></span><dl class="function">
+<dt id="waketracking.contour_functions.getPaths">
+<code class="descclassname">waketracking.contour_functions.</code><code class="descname">getPaths</code><span class="sig-paren">(</span><em>Cdata</em>, <em>Clevel</em>, <em>closePaths=False</em>, <em>verbose=False</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.contour_functions.getPaths" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loops over paths identified by the trace function.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>Cdata</strong> (<em>contour object</em>) – Instance of matplotlib._cntr.Cntr</li>
+<li><strong>Clevel</strong> (<em>float</em>) – Contour level for which to identify paths</li>
+<li><strong>closePaths</strong> (<em>tuple</em><em>, </em><em>optional</em>) – If None, open contours will be ignored; if True, a simple
+closure will be attempted (assuming that the start and end
+points lie on the same edge); otherwise, specify a tuple with
+(xh_range,xv_range), i.e., the horizontal and vertical range
+(only the first and last elements will be used, so the full list
+of coordinates is not needed)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>pathList</strong> – List of closed contour paths</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">list</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="waketracking.contour_functions.calcArea">
+<code class="descclassname">waketracking.contour_functions.</code><code class="descname">calcArea</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.contour_functions.calcArea" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the area enclosed by an arbitrary path using Green’s
+Theorem, assuming that the path is closed.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="waketracking.contour_functions.integrateFunction">
+<code class="descclassname">waketracking.contour_functions.</code><code class="descname">integrateFunction</code><span class="sig-paren">(</span><em>contourPts</em>, <em>func</em>, <em>xg</em>, <em>yg</em>, <em>fg</em>, <em>vd=None</em>, <em>Nmin=50</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.contour_functions.integrateFunction" title="Permalink to this definition">¶</a></dt>
+<dd><p>Integrate a specified function within an arbitrary region. This
+is a function of f(x,y) and optionally the contour area.</p>
+<p>The area of the enclosed cells is compared to the integrated area
+calculated using Green’s Theorem to obtain a correction for the
+discretization error. The resulting integrated quantity is scaled
+by the ratio of the actual area divided by the enclosed cell areas.
+This correction is expected to be negligible if there are “enough”
+cells in the contour region.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>contourPts</strong> (<em>path</em>) – Output from matplotlib._cntr.Cntr object’s trace function</li>
+<li><strong>xg</strong><strong>,</strong><strong>yg</strong> (<em>ndarray</em>) – Sampling plane coordinates, in the rotor-aligned frame.</li>
+<li><strong>fg</strong> (<em>ndarray</em>) – Instantaneous velocity, including shear, used as the
+independent variable in the specificed function.</li>
+<li><strong>vd</strong> (<em>ndarray</em><em>, </em><em>optional</em>) – Velocity deficit; if not None, returns average deficit in the
+enclosed region.</li>
+<li><strong>func</strong> (<em>(</em><em>lambda</em><em>) </em><em>function</em>) – Function over which to integrate.</li>
+<li><strong>Nmin</strong> (<em>integer</em><em>, </em><em>optional</em>) – Minimum number of interior cells to compute; if the contour
+region is too small, skip the contour for efficiency.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><ul class="simple">
+<li><strong>fval</strong> (<em>float</em>) – Summation of the specified function values in the enclosed
+region, with correction applied. Returns None if the path
+encloses less points than Nmin.</li>
+<li><strong>corr</strong> (<em>float</em>) – Scaling factor to correct for discrete integration error.</li>
+<li><strong>vdavg</strong> (<em>float</em>) – Average velocity deficit in the contour region.</li>
+</ul>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="waketracking.contour_functions.calcWeightedCenter">
+<code class="descclassname">waketracking.contour_functions.</code><code class="descname">calcWeightedCenter</code><span class="sig-paren">(</span><em>contourPts</em>, <em>xg</em>, <em>yg</em>, <em>fg</em>, <em>weightingFunc=&lt;ufunc 'absolute'&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#waketracking.contour_functions.calcWeightedCenter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculated the velocity-weighted center given an arbitrary path.
+The center is weighted by a specified weighting function (the abs
+function by default) applied to specified field values (e.g.
+velocity). The weighting function should have relatively large
+values in the enclosed wake region.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>contourPts</strong> (<em>path</em>) – Output from matplotlib._cntr.Cntr object’s trace function</li>
+<li><strong>xg</strong><strong>,</strong><strong>yg</strong> (<em>ndarray</em>) – Sampling plane coordinates, in the rotor-aligned frame.</li>
+<li><strong>fg</strong> (<em>ndarray</em>) – Field function to use for weighting.</li>
+<li><strong>weightingFunc</strong> (<em>(</em><em>lambda</em><em>) </em><em>function</em>) – Univariate weighting function.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>xc,yc</strong> – Coordinates of the weighted wake center in the rotor-aligned
+frame.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ndarray</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">waketracking</a></h1>
+
+
+
+<p class="blurb">a set of python-based tools for rotor wake analysis</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=ewquon&repo=waketracking&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="methodology.html">Methodology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="samples.html">Samples</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Code Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#dataloaders-module"><code class="docutils literal"><span class="pre">dataloaders</span></code> module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#waketrackers-module"><code class="docutils literal"><span class="pre">waketrackers</span></code> module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tracker-modules"><code class="docutils literal"><span class="pre">Tracker</span></code> modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contour-functions-module"><code class="docutils literal"><span class="pre">contour_functions</span></code> module</a></li>
+</ul>
+</li>
+</ul>
+
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Eliot Quon.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/code.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
