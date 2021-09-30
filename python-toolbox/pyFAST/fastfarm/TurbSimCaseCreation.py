@@ -104,14 +104,13 @@ class TSCaseCreation:
     def domainSize_low(self,zbot,Cmeander=1.9):
     
         ###HACKHACKHACK!!!!!!
-        ymin = -1.5*self.D-2.23313*Cmeander*self.D/2.0 #min(self.y)-
-        ymax = 1.5*self.D+2.23313*Cmeander*self.D/2.0 #max(self.y)+
+        ymin = min(self.y)-2.23313*Cmeander*self.D/2.0 #-1.5*self.D-2.23313*Cmeander*self.D/2.0
+        ymax = max(self.y)+2.23313*Cmeander*self.D/2.0 #1.5*self.D+2.23313*Cmeander*self.D/2.0
         
-        print(ymin,ymax)
+#         print(ymin,ymax)
         
         width_des = ymax-ymin
         height_des = self.RefHt+self.D/2.0+2.23313*Cmeander*self.D/2-zbot
-        
         self.ny = round(width_des/self.dy)+1
         self.nz = round(height_des/self.dz)+1
         

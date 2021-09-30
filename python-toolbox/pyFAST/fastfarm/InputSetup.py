@@ -17,7 +17,9 @@ def TSInputCreation(Path,totTurbs):
     Pars=pd.read_csv(ParamsFile, delimiter='\t',header=None,index_col=0,nrows=8,names=['Var','Val'])
     xlocs_tmp=pd.read_csv(ParamsFile, delimiter='\t',header=None,skiprows=6,index_col=0,nrows=1)
     ylocs_tmp=pd.read_csv(ParamsFile, delimiter='\t',header=None,skiprows=7,index_col=0,nrows=1)
-
+    
+#     print(xlocs_tmp)
+#     print(ylocs_tmp)
     nTurbs = int(xlocs_tmp.shape[1])
 
     xlocs=['None']*nTurbs
@@ -31,14 +33,16 @@ def TSInputCreation(Path,totTurbs):
     Vhub=np.float(Pars['Val']['Vhub'])
     TI=Pars['Val']['TI']
     Shear=Pars['Val']['Shear']
-
+    print('Creating CaseLow')
     CaseLow = TSCaseCreation('TurbSim_Low')
-    CaseLow.Turb(D,RefHt,fmax=0.2) ### if fmax or cmax differ from NREL-5MW value, specify that here, e.g., CaseLow.Turb(D,RefHt,fmax=0.642,cmax=6.0)
+    CaseLow.Turb(D,RefHt,fmax=15) ### if fmax or cmax differ from NREL-5MW value, specify that here, e.g., CaseLow.Turb(D,RefHt,fmax=0.642,cmax=6.0)
     CaseLow.turbLocs(xlocs,ylocs)
     CaseLow.Inflow(Pars)
-
+    print('Creating Case WT1')
     CaseWT1 = TSCaseCreation('TurbSim_WT')
-    CaseWT1.Turb(D,RefHt,fmax=0.2) ### if fmax or cmax differ from NREL-5MW value, specify that here, e.g., CaseLow.Turb(D,RefHt,fmax=0.642,cmax=6.0)
+    CaseWT1.Turb(D,RefHt,fmax=15) ### if fmax or cmax differ from NREL-5MW value, specify that here, e.g., CaseLow.Turb(D,RefHt,fmax=0.642,cmax=6.0)
+    
+    print("xlocs: {}".format(xlocs))
     CaseWT1.turbLocs(xlocs,ylocs)
     CaseWT1.Inflow(Pars)
 
