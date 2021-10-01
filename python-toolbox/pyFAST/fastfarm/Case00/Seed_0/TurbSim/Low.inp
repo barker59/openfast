@@ -2,7 +2,7 @@
 for Certification Test #1 (Kaimal Spectrum, formatted FF files).
 ---------Runtime Options-----------------------------------
 False	Echo		- Echo input data to <RootName>.ech (flag)
-936676453	RandSeed1		- First random seed  (-2147483648 to 2147483647)
+-725857204	RandSeed1		- First random seed  (-2147483648 to 2147483647)
 RanLux	RandSeed2		- Second random seed (-2147483648 to 2147483647) for intrinsic pRNG, or an alternative pRNG: "RanLux" or "RNSNLW"
 False	WrBHHTP		- Output hub-height turbulence parameters in binary form?  (Generates RootName.bin)
 False	WrFHHTP		- Output hub-height turbulence parameters in formatted form?  (Generates RootName.dat)
@@ -17,13 +17,13 @@ True	Clockwise		- Clockwise rotation looking downwind? (used only for full-field
 
 --------Turbine/Model Specifications-----------------------
 85	NumGrid_Z		- Vertical grid-point matrix dimension
-185	NumGrid_Y		- Horizontal grid-point matrix dimension
-0.033333	TimeStep		- Time step [seconds]
-60.00	AnalysisTime		- Length of analysis time series [seconds] (program will add time if necessary: AnalysisTime = MAX(AnalysisTime, UsableTime+GridWidth/MeanHHWS) )
+2221	NumGrid_Y		- Horizontal grid-point matrix dimension
+0.500000	TimeStep		- Time step [seconds]
+5.000000	AnalysisTime		- Length of analysis time series [seconds] (program will add time if necessary: AnalysisTime = MAX(AnalysisTime, UsableTime+GridWidth/MeanHHWS) )
 "ALL"	UsableTime		- Usable length of output time series [seconds] (program will add GridWidth/MeanHHWS seconds unless UsableTime is "ALL")
 211.000	HubHt		- Hub height [m] (should be > 0.5*GridHeight)
 420.000	GridHeight		- Grid height [m]
-920.000	GridWidth		- Grid width [m] (should be >= 2*(RotorRadius+ShaftLength))
+11100.000	GridWidth		- Grid width [m] (should be >= 2*(RotorRadius+ShaftLength))
 0	VFlowAng		- Vertical mean flow (uptilt) angle [degrees]
 0	HFlowAng		- Horizontal mean flow (skew) angle [degrees]
 
